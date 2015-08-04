@@ -1,6 +1,5 @@
 
 .result-container {
-	background: #fafafa;
 	position: relative;
 	padding: 60px 20px 20px;
 	width: 100%;
@@ -29,33 +28,59 @@
 }
 
 .result-wrapper {
-	padding: 10px;
+	padding: 30px 10px;
 	box-sizing: border-box;
 	width: 100%;
 }
 
-
-@include min-screen(480px){
-	.result-wrapper {
-		width: 50%;
-	}
-}
-
-
-@include min-screen(768px){
-	.result-wrapper {
-		width: 33%;
-	}
-}
-
-
-@include min-screen(1024px){
-	.result-container {
-		h2{
-			font-size: 18px;
+.side-content {
+		.result-wrapper{
+			width:100%;
 		}
 	}
+
+.box-description{
+	max-width: 200px;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: -220px;
 }
+
+// @include min-screen(480px){
+// 	.result-wrapper {
+// 		width: 50%;
+// 	}
+// }
+
+
+// @include min-screen(768px){
+// 	.result-wrapper {
+// 		width: 33%;
+
+// 		h2{
+// 			font-size: 18px;
+// 		}
+// 	}
+
+
+// 	.result-wrapper-sizer{
+// 		width:25%;
+// 	}
+
+// 	.result-wrapper-double {
+// 		width: 66%;
+// 	}
+// }
+
+
+// @include min-screen(1024px){
+// 	.result-container {
+// 		h2{
+// 			font-size: 24px;
+// 		}
+// 	}
+// }
 
 
 //	FOR SIDEBAR

@@ -32,10 +32,10 @@
             </ul>
         </div>
 
-        <div class="result-block result-why">
+        <!-- <div class="result-block result-why">
             <h4>Reciclaje con fin <strong>solidario</strong></h4>
             <a href="#" class="btn btn-link">Más informaci&oacute;n</a>
-        </div>
+        </div> -->
 
 
         <div class="result-block result-where">

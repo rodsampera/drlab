@@ -20,6 +20,10 @@
                   // options
                   itemSelector: '.result-wrapper',
                   layoutMode: 'masonry',
+                  masonry: {
+                      // use element for option
+                      columnWidth: '.result-sizer'
+                    }
                 });
             });
 

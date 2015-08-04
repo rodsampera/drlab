@@ -1,7 +1,11 @@
 <?php include("includes/data/materials-data.php"); ?>
 
 <div class="result-wrapper">
-    <div class="result-item carton-y-papel">
+    <!-- <div class="box-description">
+        <h4>Residuos Secos</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eum, cum suscipit voluptatum iusto, alias optio eius ad, perspiciatis esse obcaecati voluptates hic nam ut molestias dolorum illo, vitae animi.</p>
+    </div>
+ -->    <div class="result-item carton-y-papel">
         <!-- <div class="result-image">
             <img src="http://placehold.it/300x200" alt="">
         </div> -->

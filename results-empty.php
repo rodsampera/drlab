@@ -27,8 +27,12 @@
             <?php include("includes/results/otros.php"); ?>
 
         </div>
+        
+        
     </div>
 </section>
+
+
 
 <!-- <aside class="side-content">
     <p>Extra Content</p>

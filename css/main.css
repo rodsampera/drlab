@@ -99,11 +99,12 @@ ul {
 
 /* line 19, ../sass/blocks/_main.scss */
 .wrapper {
-  max-width: 1000px;
+  max-width: 400px;
   margin: 0 auto;
+  position: relative;
 }
 
-/* line 24, ../sass/blocks/_main.scss */
+/* line 25, ../sass/blocks/_main.scss */
 input {
   padding: 10px;
   font-size: 13px;
@@ -265,62 +266,57 @@ nav.top-bar .nav-menu {
 
 /* line 2, ../sass/blocks/_results.scss */
 .result-container {
-  background: #fafafa;
   position: relative;
   padding: 60px 20px 20px;
   width: 100%;
   display: inline-block;
   box-sizing: border-box;
 }
-/* line 10, ../sass/blocks/_results.scss */
+/* line 9, ../sass/blocks/_results.scss */
 .result-container h2 {
   font-weight: 300;
   font-size: 16px;
   display: inline-block;
 }
 
-/* line 17, ../sass/blocks/_results.scss */
+/* line 16, ../sass/blocks/_results.scss */
 .result-header {
   width: 100%;
   padding: 20px 0;
   text-align: center;
 }
 
-/* line 23, ../sass/blocks/_results.scss */
+/* line 22, ../sass/blocks/_results.scss */
 .result-header-action {
   display: block;
 }
 
-/* line 27, ../sass/blocks/_results.scss */
+/* line 26, ../sass/blocks/_results.scss */
 .result-grid {
   margin: 0 -10px;
 }
 
-/* line 31, ../sass/blocks/_results.scss */
+/* line 30, ../sass/blocks/_results.scss */
 .result-wrapper {
-  padding: 10px;
+  padding: 30px 10px;
   box-sizing: border-box;
   width: 100%;
 }
 
-@media screen and (min-width: 480px) {
-  /* line 39, ../sass/blocks/_results.scss */
-  .result-wrapper {
-    width: 50%;
-  }
+/* line 37, ../sass/blocks/_results.scss */
+.side-content .result-wrapper {
+  width: 100%;
 }
-@media screen and (min-width: 768px) {
-  /* line 46, ../sass/blocks/_results.scss */
-  .result-wrapper {
-    width: 33%;
-  }
+
+/* line 42, ../sass/blocks/_results.scss */
+.box-description {
+  max-width: 200px;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: -220px;
 }
-@media screen and (min-width: 1024px) {
-  /* line 54, ../sass/blocks/_results.scss */
-  .result-container h2 {
-    font-size: 18px;
-  }
-}
+
 /* line 2, ../sass/blocks/_result-item.scss */
 .result-item {
   border: 1px solid #eee;

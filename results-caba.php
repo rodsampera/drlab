@@ -12,6 +12,8 @@
         </div>
         <div class="result-grid">
 
+        <div class="result-grid-sizer"></div>
+
             <?php include("includes/results/reciclables-caba.php"); ?>
 
             <?php include("includes/results/organicos.php"); ?>
