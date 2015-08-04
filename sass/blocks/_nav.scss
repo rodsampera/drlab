@@ -1,0 +1,25 @@
+nav.top-bar {
+	width: 100%;
+	background: #eee;
+	display: inline-block;
+	height: 60px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	z-index: 20;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	h4{
+		display: inline-block;
+		float: left;
+	}
+	
+	.nav-menu {
+		float: right;
+		
+		box-sizing: border-box;
+		padding: 12px 0;
+	}
+}

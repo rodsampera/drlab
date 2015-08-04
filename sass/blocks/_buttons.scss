@@ -1,0 +1,25 @@
+.btn{
+	display: inline-block;
+	padding: 10px;
+	font-size: 14px;
+	color: #444;
+	background: #ddd;
+	text-decoration: none;
+
+	&:hover {
+		background: #ccc;
+	}	
+}
+
+
+.btn-link {
+	background: transparent;
+	text-decoration: underline;
+	color: #999;
+	font-size: 12px;
+
+	&:hover {
+		background: transparent;
+		color: $accent-color;
+	}
+}
