@@ -23,23 +23,12 @@
         <div class="result-block result-where">
             <h2>Pod&eacute;s reciclarlos en:</h2>
             <ul>
-
-                <li class="result-where-item">
-                    <a href="#">
-                        <span class="result-where-item-icon"><i class="fa fa-map-marker"></i></span>
-                        <hgroup>
-                            <h4>Punto Verde Especial</h4>
-                            <p>Dirección punto verde cercano, CABA</p>
-                        </hgroup>
-                    </a>
-                </li>
-
                 <li class="result-where-item">
                     <a href="#">
                         <span class="result-where-item-icon"><i class="fa fa-phone"></i></span>
                         <hgroup>
-                            <h4>Residuos especiales</h4>
-                            <p>Llam&aacute; al 114 y coordin&aacute; el retiro</p>
+                            <h4>Qué Reciclo</h4>
+                            <p>Coordiná tu retiro al 11-4567-9876 de Lunes a Viernes hasta las 18hs.</p>
                         </hgroup>
                     </a>
                 </li>

@@ -1,5 +1,5 @@
 <div class="result-wrapper">
-    <div class="result-item">
+    <div class="result-item organicos">
         <!-- <div class="result-image">
             <img src="http://placehold.it/300x200" alt="">
         </div> -->
@@ -10,7 +10,7 @@
 
                     <hgroup>
                         <!-- <h4>Pl&aacute;stico</h4> -->
-                        <p>Separando los restos de verduras, cáscaras, poda y pasto de los demás residuos, los mezclás y dejás reposar en un contenedor (o compostera); vas a obtener compost, un abono natural para las plantas.</p>
+                        <p>Separando los <strong>restos de verduras, cáscaras, poda y pasto</strong> de los demás residuos, los mezclás y dejás reposar en un contenedor (o compostera); <strong>vas a obtener compost, un abono natural para las plantas.</strong></p>
                     </hgroup>
                     
                 </li>            

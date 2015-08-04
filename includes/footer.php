@@ -4,6 +4,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
         
         <script>
         $(document).ready(function(){
@@ -22,13 +23,26 @@
                 });
             });
 
-            $('.result-recyclables').isotope({
-              // options
-              itemSelector: '.result-material-item',
-              layoutMode: 'masonry',
+             $('.tooltip').tooltipster({
+              maxWidth: 280,
+             });
+
+            // $('.result-recyclables').isotope({
+            //   // options
+            //   itemSelector: '.result-material-item',
+            //   layoutMode: 'masonry',
               
-            });
+            // });
             
+            $('#pick-location').on('click',function(){
+              $('#modal-location').show();
+              $('body').addClass('modal-on');
+            });
+
+            $('#close-modal').on('click',function(){
+              $('#modal-location').hide();
+              $('body').removeClass('modal-on');
+            });
 
          });
         </script>

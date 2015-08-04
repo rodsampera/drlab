@@ -5,6 +5,8 @@
 	color: #444;
 	background: #ddd;
 	text-decoration: none;
+	border:none;
+	border: 1px solid transparent;
 
 	&:hover {
 		background: #ccc;
@@ -22,4 +24,47 @@
 		background: transparent;
 		color: $accent-color;
 	}
+}
+
+
+.btn-accent {
+	background: $accent-color;
+	color: #fff;
+
+	&:hover {
+		background: darken($accent-color, 10);
+	}
+}
+
+
+.btn-accent-dark {
+	background: darken($accent-color, 10);
+	color: #fff;
+
+	&:hover {
+		background: darken($accent-color, 20);
+	}
+}
+
+.btn-alert {
+	background: darken($alert-color, 10);
+	color: #fff;
+
+	&:hover {
+		background: darken($alert-color, 20);
+	}
+}
+
+
+.btn-location {
+	border-color: $accent-color;
+	background: transparent;
+	color: #999;
+	font-size: 12px;
+
+	&:hover {
+		background: lighten($accent-color, 5);
+		color: #fff;
+	}
+
 }

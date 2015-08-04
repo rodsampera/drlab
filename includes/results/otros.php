@@ -7,12 +7,12 @@
                     
                         <hgroup>
                             <!-- <h4>Pl&aacute;stico</h4> -->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel minus placeat consequuntur magnam voluptas sit culpa nemo exercitationem.</p>
+                            <p>Es posible que no haya lugares para reciclar todos los materiales cerca de d&oacute;nde est&aacute;s. Conoc&eacute; qu&eqcute; otras cosas pueden ser recicladas y d&oacute;nde.</p>
                         </hgroup>
                     
                 </li>            
             </ul>
-            <a href="#" class="btn btn-link">Más informaci&oacute;n</a>
+            <a href="#" class="btn btn-link">Mapa de reciclaje</a>
         </div>
 
        

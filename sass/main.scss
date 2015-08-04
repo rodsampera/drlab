@@ -1,5 +1,6 @@
-@import 'blocks/_mixins';
-@import 'blocks/_variables';
+@import 'blocks/mixins';
+@import 'blocks/variables';
+@import 'blocks/modal';
 @import 'blocks/main';
 @import 'blocks/buttons';
 @import 'blocks/nav';
@@ -7,3 +8,8 @@
 @import 'blocks/results';
 @import 'blocks/result-item';
 @import 'blocks/sidebar';
+@import 'blocks/materials';
+
+
+// PLUGINS
+@import 'blocks/tooltipster';

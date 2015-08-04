@@ -1,25 +1,57 @@
 nav.top-bar {
 	width: 100%;
-	background: #eee;
+	background: rgba(#fff,0.95);
 	display: inline-block;
-	height: 60px;
+	height: 50px;
 	padding: 0 20px;
 	box-sizing: border-box;
 	z-index: 20;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(158,158,158,0.2);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(158,158,158,0.2);
+	box-shadow: 0px 2px 5px 0px rgba(158,158,158,0.2);
+	text-align: center;
 
 	h4{
+		text-indent: -9999px;
+	}
+
+	.brand {
 		display: inline-block;
 		float: left;
+		margin-top: 5px;
+		img{
+			height: 40px;
+		}
 	}
 	
+	.top-bar-search{
+		
+		position: relative;
+		display: inline-block;
+
+		input{
+			width: 400px;
+			margin: 0 auto;		
+			box-sizing: border-box;
+			padding-left: 30px;
+		}
+		span{
+			position: absolute;
+			left: 10px;
+			top:10px;
+		}
+		
+	}
+
 	.nav-menu {
 		float: right;
+		margin-top: 5px;
 		
 		box-sizing: border-box;
-		padding: 12px 0;
+		padding: 0;
 	}
 }

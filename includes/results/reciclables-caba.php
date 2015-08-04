@@ -1,72 +1,61 @@
+<?php include("includes/data/materials-data.php"); ?>
+
 <div class="result-wrapper">
     <div class="result-item">
         <!-- <div class="result-image">
             <img src="http://placehold.it/300x200" alt="">
         </div> -->
         <div class="result-block result-material">
-            <h2><i class="fa fa-recycle"></i> Ciudad Verde Recicla</h2>
+            <h2><i class="fa fa-recycle"></i> Separ&aacute; por un lado:</h2>
 
             <ul  class="result-recyclables">
                 <li class="result-material-item">
                     <a href="#">
-                        <hgroup>
-                            <h4>Pl&aacute;sticos</h4>
-                            <p>Botellas, envases y tapitas de pl&aacute;stico, papel film, bolsas pl&aacute;sticas, sachets, potes (youghurt, crema, dulce de leche, etc.), bidones, telgopor, vajilla descartable, sillas, radiograf&iacute;as.</p>
-                        </hgroup>
+                          <h4>Pl&aacute;sticos</h4>
                     </a>
+                    <span class="material-examples tooltip" title="<?php echo $materialExamples["examples-plastico"];?>"><i class="fa fa-question-circle"></i></span>
                 </li>
 
                 <li class="result-material-item">
                     <a href="#">
-                        <hgroup>
                             <h4>Tetra-brik</h4>
-                            <p>Envases de Tetra Brik de leche, de bebidas con y sin alcohol, de pur&eacute; de tomates, salsas, etc.</p>                        </hgroup>
                     </a>
+                    <span class="material-examples tooltip" title="<?php echo $materialExamples["examples-tetra-brik"];?>"><i class="fa fa-question-circle"></i></span>
                 </li>
 
                 <li class="result-material-item">
                     <a href="#">
-                        <hgroup>
                             <h4>Tapitas</h4>
-                            <p>Tapas pl&aacute;sticas de envases.</p>
-                        </hgroup>
                     </a>
+                     <span class="material-examples tooltip" title="<?php echo $materialExamples["examples-tapitas"];?>"><i class="fa fa-question-circle"></i></span>
                 </li>
 
                  <li class="result-material-item">
                     <a href="#">
-                        <hgroup>
                             <h4>Cart&oacute;n y papel</h4>
-                            <p>Papel blanco o de color (impreso o no), cartulinas, sobres de todo tipo de papel, diarios y revistas, folletos, gu&iacute;as telef&oacute;nicas, cajas de cart&oacute;n, cajas de huevos, rollos de papel.</p>
-                        </hgroup>
                     </a>
+                    <span class="material-examples tooltip" title="<?php echo $materialExamples["examples-carton-y-papel"];?>"><i class="fa fa-question-circle"></i></span>
                 </li>
 
                  <li class="result-material-item">
                     <a href="#">
-                        <hgroup>
                             <h4>Vidrio</h4>
-                            <p>Botellas, frascos, envases de vidrio transparente o de color.</p>
-                        </hgroup>
                     </a>
+                     <span class="material-examples tooltip" title="<?php echo $materialExamples["examples-vidrio"];?>"><i class="fa fa-question-circle"></i></span>
                 </li>
 
                  <li class="result-material-item">
                     <a href="#">
-                        <hgroup>
                             <h4>Metales</h4>
-                            <p>Latas y envases de acero (de conservas, salsas, etc.), aluminio (gaseosas, desodorantes, aerosoles, etc.), tapas de frascos, tapas y papel de aluminio (youghurt, crema, etc.), llaves, candados, picaportes, grifer&iacute;as, ollas, cobre.</p>
-                        </hgroup>
                     </a>
+                    <span class="material-examples tooltip" title="<?php echo $materialExamples["examples-metales"];?>"><i class="fa fa-question-circle"></i></span>
                 </li>
 
                  <li class="result-material-item">
                     <a href="#">
-                        <hgroup>
                             <h4>Ropa y telas</h4>
-                            <p>Ropa en desuso, s&aacute;banas, manteles y trapos.</p>
-                        </hgroup>
                     </a>
+                    <span class="material-examples tooltip" title="<?php echo $materialExamples["examples-ropa"];?>"><i class="fa fa-question-circle"></i></span>
                 </li>
             
             </ul>

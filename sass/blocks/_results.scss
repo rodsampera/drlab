@@ -46,32 +46,34 @@
 	.result-wrapper {
 		width: 33%;
 	}
-
-	.result-header{
-		text-align: left;
-	}
-
-	.result-header-action {
-		float: right;
-		margin-top: 8px;
-	}
 }
 
 
 @include min-screen(1024px){
 	.result-container {
-		width:80%;
-		height: 100vh;
-		position: absolute;
-		top:0;
-		overflow: hidden;
-		overflow-y: scroll;
-
 		h2{
 			font-size: 18px;
 		}
 	}
 }
+
+
+//	FOR SIDEBAR
+
+// @include min-screen(1024px){
+// 	.result-container {
+// 		width:80%;
+// 		height: 100vh;
+// 		position: absolute;
+// 		top:0;
+// 		overflow: hidden;
+// 		overflow-y: scroll;
+
+// 		h2{
+// 			font-size: 18px;
+// 		}
+// 	}
+// }
 
 // @include min-screen(1280px){
 // 	.result-wrapper {

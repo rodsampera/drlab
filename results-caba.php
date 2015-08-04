@@ -6,7 +6,7 @@
 
         <div class="result-header">
             <!-- CALL TO ACTION -->
-            <h2>Esto es lo que podés hacer en <strong>Algún otro lugar.</strong></h2>
+            <h2>Esto es lo que podés hacer en <strong>Ciudad de Buenos Aires</strong>:</h2>
             <!-- <h3>Ingresá tu ubicación para conocer opciones de reciclaje.</h3> -->
             <a id="pick-location" href="#" class="result-header-action btn btn-link">¿Estás en otro lugar?</a>
         </div>
@@ -33,6 +33,7 @@
 <!-- <aside class="side-content">
     <p>Extra Content</p>
 </aside> -->
+<?php include("includes/modals/modal-ubicacion.php"); ?>
 
 <?php include("includes/footer.php"); ?>
 
